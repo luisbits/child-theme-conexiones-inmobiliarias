@@ -1,0 +1,145 @@
+body {
+    background: #E8E8E8 !important;
+    margin-top:80px !important;
+}
+
+div.solid-section{
+    background: #ffffff;
+    margin: 15px 0;
+    padding: 15px;
+}
+
+.listing-c2a{
+    background: #cbd675 !important;
+    color: #133446 !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    padding: 10px 10px !important;
+    border-color: #cbd675 !important;
+    width: 100% !important;
+}
+
+/* Listing Menu */
+div.listing-detail-menu{
+    background: #ffffff;
+    padding: 20px 10px;
+}
+
+/* Listing Header */
+div.listing-header{
+    color: #133446 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div.listing-header h1.listing-title{
+    font-weight: 700;
+}
+
+div.listing-header span.listing-for{
+    font-size: 15px;
+}
+
+/* listing content */
+div.listing-carousel{
+    height: 450px;
+    overflow: hidden;
+    padding: 0;
+}
+
+div.listing-detail {
+    min-height: 450px;
+    padding: 20px 60px;
+}
+
+div.listing-detail ul{
+    text-align: left;
+    font-size: 24px;
+    width: 100%;
+}
+div.listing-detail ul li i{
+    background: #153445;
+    color: #cbd675;
+    padding: 3px 5px;
+    margin-right: 10px;
+}
+
+div.listing-detail p.price{
+    font-size: 42px;
+    margin: 20px 0;
+    text-align: left;
+    width: 100%;
+}
+
+/* Description */
+div.listing-description {
+    background: #fff;
+    padding: 25px 30px;
+    font-size: 17px;
+    color: #133446 !important;
+}
+
+/* Listing  Form */
+div.listing-form{
+    min-height: 567px;
+    padding: 30px;
+}
+
+div.listing-form h3{
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+div.listing-form input.btn-send-form{
+    background: #cbd675;
+    color: #133446;
+    font-weight: bold;
+    text-transform:uppercase;
+    text-align: center;
+    padding: 10px 10px;
+    width: 50%;
+}
+
+div.listing-column-stretch {
+    display: flex;
+    align-items: stretch;
+}
+
+/* Listing Bio */
+div.listing-bio{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+div.listing-bio-row{
+    width: 100%;
+}
+
+div.listing-bio div.listing-bio_header {
+    align-self: flex-start;
+    background: #133446;
+    color:#ffffff;
+    padding: 11% 40px;
+    text-align: left;
+}
+
+div.listing-bio div.listing-bio_footer {
+     align-self: flex-end;
+    background: #cbd675;
+    color: #133446;
+    padding: 35px 40px;
+}
+
+div.listing-bio div.listing-bio_footer ul{
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+
+div.listing-bio div.listing-bio_footer ul li a {
+    color: #133446;
+    text-decoration: none;
+}
